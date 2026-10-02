@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Shippori+Mincho:wght@500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f3eee6;
+  --color-card: #faf7f2;
+  --color-ink: #1e1a16;
+  --color-muted: #6b6158;
+  --color-line: #e4d9cc;
+  --color-seal: #b8432f;
+  --color-seal-soft: #f8ebe6;
+  --color-moss: #2f6b52;
+  --color-moss-soft: #e5f2eb;
+  --color-night: #243044;
+  --font-sans: "Noto Sans TC", "PingFang TC", "Noto Sans CJK TC", sans-serif;
+  --font-serif: "Shippori Mincho", "Iowan Old Style", serif;
+  --radius-card: 1.1rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  summary {
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  ruby rt {
+    font-family: var(--font-sans);
+    font-size: 0.42em;
+    color: var(--color-muted);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
