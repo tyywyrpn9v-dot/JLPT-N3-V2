@@ -45,4 +45,7 @@ export const GROUP_LABEL: Record<string, string> = {
   giving: "授受",
   speech: "引用・傳遞",
   advice: "建議",
+  particle: "助詞",
+  conj: "活用",
+  counter: "助數詞",
 };
