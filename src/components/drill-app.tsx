@@ -134,7 +134,7 @@ function Home({
     <main className="space-y-6">
       <section className="rounded-card border border-line bg-card p-5 sm:p-7">
         <p className="max-w-xl text-pretty text-base leading-relaxed text-ink">
-          一輪十題，只考文法同語彙。其中約兩題係 N4 或 N5：N3 語言知識會再考初級，用來墊穩。其餘跟最近一輪走：八成以上會出更易混淆的接續，四成以下回到核心句型。答完先睇每個選項的接續同點解啱、點解錯，先至下一題。同一文法唔會連續霸佔題目。
+          一輪十題，只考文法同語彙。其中約兩題係 N4 或 N5：N3 語言知識會再考初級，用來墊穩。其餘跟最近一輪走：八成以上會出更易混淆的接續，四成以下回到核心句型。答完先睇每個選項的接續同點解啱、點解錯，先至下一題。同一文法唔會連續霸佔題目。高頻句型會換詞類接續或換用法再考，語彙會考讀音、漢字寫法同助數詞，文法會考活用同口語形，唔係永遠同一句。
         </p>
         <div className="mt-5 flex flex-wrap items-center gap-3">
           <button
